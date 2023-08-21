@@ -1,0 +1,99 @@
+﻿{
+    "name":"Custom",
+    "dataColors":["#D2D2D2","#202A32","#A30134","#4CAECB","#2E3E46","#828B90","#A30134","#A30134"], 
+    "textClasses":{
+        "label":{
+            "fontFace":"Arial",
+            "color":"#202A32",
+            "fontSize":10},
+        "callout":{
+            "fontFace":"Arial","fontSize":44},
+            "title":{"fontFace":"Arial","fontSize":12},
+            "header":{"fontFace":"Arial","color":"#202A32","fontSize":12}},
+    "bad":"#ED3338",
+    "neutral":"#FFFF00",
+    "good":"#00B050",
+    "minimum":"#61007D",
+    "center":"#F7F7F7",
+    "maximum":"#F1B434",
+    "foreground":"#202A32",
+    "foregroundNeutralSecondary":"#2E3E46",
+    "backgroundLight":"#D2D2D2",
+    "foregroundNeutralTertiary":"#828B90",
+    "background":"#FFFFFF",
+    "backgroundNeutral":"#828B90",
+    "visualStyles":{
+        "*":{
+            "*":{
+                "*": [{
+					"wordWrap": false,
+					"autoSizeColumnWidth": false,
+					"concatenateLabels":false}],
+                "categoryAxis": [{
+                    "showAxisTitle": false}],
+                "valueAxis": [{
+                    "showAxisTitle": false}],               
+                "labels": [{
+                    "show": true,
+                    "fontSize": 8,
+                    "labelPosition": "InsideBase",
+                    "enableBackground":false,
+                    "labelOverflow": true,
+                    "labelDensity": 100,
+                    "labelPrecision": 0}],                
+                "background":[{
+                    "color":{
+                        "solid":{"color":"#FFFFFF"}},
+                    "transparency":100}],
+                "border":[{
+                    "show":false}],
+                "visualHeader":[{
+                    "background":{
+                        "solid":{"color":"#FFFFFF"}},
+                    "transparency":0,
+                    "border":{
+                        "solid":{"color":"#FFFFFF"}}}],
+                "visualTooltip":[{
+                    "themedBackground":{"solid":{"color":"#FFFFFF"}}}],
+                "visualHeaderTooltip":[{
+                    "themedBackground":{
+                        "solid":{"color":"#FFFFFF"}}}],
+                "outspacePane":[{
+                    "backgroundColor":{
+                        "solid":{"color":"#FFFFFF"}},
+                    "transparency":0,
+                    "titleSize":12,
+                    "headerSize":10,
+                    "checkboxAndApplyColor":{
+                        "solid":{"color":"#00B050"}}}],
+                "filterCard":[
+                    {"$id":"Applied",
+                        "backgroundColor":{"solid":{"color":"#828B90"}},
+                        "foregroundColor":{"solid":{"color":"#202A32"}},
+                        "textSize":10,
+                        "transparency":0},
+                    {"$id":"Available",
+                        "backgroundColor":{"solid":{"color":"#FFFFFF"}},
+                        "foregroundColor":{"solid":{"color":"#202A32"}},
+                        "textSize":10,
+                        "transparency":0}]}},
+        "slicer":{
+            "*": {
+                "header":[{
+                    "textSize":10}]}},       
+        "tableEx": {
+            "*": {
+                "values": [{
+                    "backColorSecondary": { "solid": { "color": "#FAFAFA"}}}]}},
+        "pivotTable": {
+            "*": {
+                "values": [{
+                "backColorSecondary": { "solid": { "color": "#FAFAFA"}}}]}},        
+        "page":{
+            "*":{
+                "background":[{
+                    "color":{"solid":{"color":"#FAFAFA"}},
+                    "transparency":0}],
+                 "outspace":[{
+                            "color":{"solid":{"color":"#D2D2D2"}},
+                            "transparency":0}]}}}}
